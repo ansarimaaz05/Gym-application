@@ -3,7 +3,6 @@ import os
 import datetime
 from chatbot.chatbot import get_chatbot_response
 
-# -------------------- 🔐 Login Credentials --------------------
 VALID_USERS = {
     "john.doe@gym.com": "JohnDoe@123",
     "jane.smith@gym.com": "Jane@Smith",
@@ -11,10 +10,8 @@ VALID_USERS = {
     "pro.body@gym.com": "Body@Pro2025"
 }
 
-# -------------------- ⚙️ App Config --------------------
 st.set_page_config(page_title="🏋️ ANSARI MAAZ'S AI GYM Assistant", layout="wide")
 
-# -------------------- 🎨 Yellow-Black Gym Theme --------------------
 GYM_STYLE = """
 <style>
     html, body, [class*="css"] {
@@ -66,13 +63,11 @@ GYM_STYLE = """
 """
 st.markdown(GYM_STYLE, unsafe_allow_html=True)
 
-# -------------------- 🔐 Session State --------------------
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
 if "workout_level" not in st.session_state:
     st.session_state.workout_level = None
 
-# -------------------- 🔐 Login Page --------------------
 if not st.session_state.authenticated:
     st.title("🏋️ Welcome to AI Gym Assistant")
     st.markdown("### 🔐 Please login to continue")
@@ -215,4 +210,3 @@ else:
                         st.info(f"🚫 No GIFs found for {selected}.")
                 else:
                     st.error(f"❌ Folder not found: `{gif_dir}`")
-
