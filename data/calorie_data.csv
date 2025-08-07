@@ -1,0 +1,94 @@
+item,category,calories_per_100g
+White Rice,Food,130
+Brown Rice,Food,112
+Chicken Breast,Food,165
+Boiled Egg,Food,155
+Dal (Lentils),Food,116
+Chapati,Food,110
+biryani,170
+
+Idli,Indian Dish,58
+Dosa,Indian Dish,168
+Pav Bhaji,Indian Dish,200
+Chicken Biryani,Indian Dish,250
+Samosa,Indian Dish,300
+biryani,170
+chicken biryani,180
+veg biryani,150
+
+Apple,Fruit,52
+Banana,Fruit,89
+Mango,Fruit,60
+Orange,Fruit,47
+Papaya,Fruit,43
+
+Milk (Toned),Liquid,60
+Lassi,Sweet Liquid,100
+Tea (with sugar),Liquid,50
+Orange Juice,Liquid,45
+
+Gulab Jamun,Sweet,330
+Rasgulla,Sweet,186
+Jalebi,Sweet,450
+Kheer,Sweet,150
+
+item,category,calories_per_100g
+White Rice,Food,130
+Brown Rice,Food,112
+Chicken Breast,Food,165
+Boiled Egg,Food,155
+Dal (Lentils),Food,116
+Chapati,Food,110
+
+Idli,Indian Dish,58
+Dosa,Indian Dish,168
+Pav Bhaji,Indian Dish,200
+Chicken Biryani,Indian Dish,250
+Samosa,Indian Dish,300
+Paneer Butter Masala,Indian Dish,280
+Rajma Chawal,Indian Dish,200
+Chole Bhature,Indian Dish,300
+
+Apple,Fruit,52
+Banana,Fruit,89
+Mango,Fruit,60
+Orange,Fruit,47
+Papaya,Fruit,43
+Watermelon,Fruit,30
+Grapes,Fruit,67
+
+Milk (Toned),Liquid,60
+Lassi,Sweet Liquid,100
+Tea (with sugar),Liquid,50
+Orange Juice,Liquid,45
+Buttermilk, Liquid,35
+Cold Drink (Coke),Liquid,44
+
+Gulab Jamun,Sweet,330
+Rasgulla,Sweet,186
+Jalebi,Sweet,450
+Kheer,Sweet,150
+Halwa,Sweet,350
+Ladoo,Sweet,420
+
+Potato,Vegetable,77
+Tomato,Vegetable,18
+Onion,Vegetable,40
+Carrot,Vegetable,41
+Spinach,Vegetable,23
+Broccoli,Vegetable,34
+Cauliflower,Vegetable,25
+
+Almonds,Dry Fruit,579
+Cashews,Dry Fruit,553
+Raisins,Dry Fruit,299
+Pistachios,Dry Fruit,562
+Walnuts,Dry Fruit,654
+Dates,Dry Fruit,282
+
+Pizza,Fast Food,266
+Burger,Fast Food,295
+French Fries,Fast Food,312
+Fried Chicken,Fast Food,320
+Chowmein,Fast Food,220
+Pasta (white sauce),Fast Food,350
