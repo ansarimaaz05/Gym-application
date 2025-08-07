@@ -5,12 +5,6 @@ from chatbot.chatbot import get_chatbot_response
 
 # -------------------- 🔐 Login Credentials --------------------
 VALID_USERS = {
-    "maaz.yusuf5@gmail.com": "M@@z2004S",
-    "ansarimaaz572@gmail.com": "ali@2009",
-    "shirinansari566@gmail.com": "Jabeen.90",
-    "ansariyumna78@gmail.com": "yumna@2006",
-    "am.yusuf@gmail.com": "Yusuf@1972",
-    "sana.yusuf13@gmail.com": "Sana@1976",
     "john.doe@gym.com": "JohnDoe@123",
     "jane.smith@gym.com": "Jane@Smith",
     "coachx@gym.com": "Coach@999",
@@ -221,3 +215,4 @@ else:
                         st.info(f"🚫 No GIFs found for {selected}.")
                 else:
                     st.error(f"❌ Folder not found: `{gif_dir}`")
+
